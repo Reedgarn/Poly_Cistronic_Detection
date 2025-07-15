@@ -12,11 +12,9 @@ Before beginning, several input files need to be generated and loaded into R. Th
 
 Once all objects are loaded into R, you can run the PC_Det() function. The user must supply the alignments object and the annotation object. In addition to these, other options can be selected to augment the behavior and output of the function. These options include:
 
-<pre> ```
-min.overlap = Specifies how many bases a read needs to overlap with a gene in order for it to count as an overlap with that gene. This takes an integer value. (default is 1 nucleotide)
+<pre> ```min.overlap = Specifies how many bases a read needs to overlap with a gene in order for it to count as an overlap with that gene. This takes an integer value. (default is 1 nucleotide)
 ignore.strand = Specifies whether or not the strand should be considered when determining overlaps. Takes TRUE or FALSE values. (default is FALSE, strand information is considered)
 ignore.nested.genes = Specifies if genes that naturally overlap on the genome itself should be removed from the final list of PC loci. (default is FALSE, nested genes are not filtered out)
-save.to.disk = Should help with memory consumption if processing large amounts of reads. Takes an integer value. (default is 10000)
-``` </pre>
+save.to.disk = Should help with memory consumption if processing large amounts of reads. Takes an integer value. (default is 10000)``` </pre>
 
 
